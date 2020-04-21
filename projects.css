@@ -1,0 +1,27 @@
+.footer{
+    background:#0beaea;
+    height: 30px; 
+    width:100%; 
+    position:fixed; 
+    bottom:0; 
+    left:0; 
+    opacity: .7;
+}
+.tittle-projects{
+    font-size:3em;
+    font:bold 5.5vw/1.6 'Girassol', cursive;
+    font-family: 'Girassol', cursive;
+    color:#0beaea ;
+    opacity: .8;
+    letter-spacing: 8px;
+    text-align: center;
+    margin-top: -230px;
+}
+.text-projects{
+    color: blanchedalmond;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 800px;
+    margin-top: -40px;
+}

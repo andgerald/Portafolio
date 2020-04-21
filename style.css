@@ -8,7 +8,6 @@ body {
     justify-content: center; 
     align-items: center; margin:20px 0;
     flex-direction: column;
-    overflow:hidden;
 }
 h1 {
  font-size:5em;
@@ -61,13 +60,14 @@ h1 span:nth-child(17){ animation-delay:.8s; }
   position: fixed;
   top: 0;
   width: 100%;    
+  z-index: 100;
 }
 
 .footer{
   background:#0beaea;
   height: 30px; 
   width:100%; 
-  position:absolute; 
+  position:fixed; 
   bottom:0; 
   left:0; 
   opacity: .7;
