@@ -1,14 +1,14 @@
 body{
-    overflow: scroll;
+  overflow:hidden;
 }
 .footer{
-    background:#0beaea;
-    height: 30px; 
-    width:100%; 
-    position:fixed; 
-    bottom:0; 
-    left:0; 
-    opacity: .7;
+  background:#0beaea;
+  height: 30px; 
+  width:100%; 
+  position:fixed; 
+  bottom:0; 
+  left:0; 
+  opacity: .7;
 }
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
 @import url(https://fonts.googleapis.com/css?family=Cardo);
@@ -17,8 +17,8 @@ figure.snip1524 {
   position: relative;
   overflow: hidden;
   margin: 10px;
-  min-width: 230px;
-  max-width: 315px;
+  min-width: 180px;
+  max-width: 280px;
   width: 100%;
   color: #ffffff;
   text-align: center;
@@ -96,111 +96,113 @@ figure.snip1524.hover figcaption {
   transform: rotate(0);
 }
 .category-project{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 150px;
 }
 .container-deploy{
-    display: flex;
+  display: flex;
 }
 .img-deploy{
-    width: 40px;
-    height: 40px;
-    display: flex;
+  width: 40px;
+  height: 40px;
+  display: flex;
 }
 .tittle-projects{
-    font-size:3em;
-    font:bold 5.5vw/1.6 'Girassol', cursive;
-    font-family: 'Girassol', cursive;
-    color:#0beaea ;
-    opacity: .8;
-    letter-spacing: 8px;
-    text-align: center;
-    margin-top: 90px;
+  font-size:3em;
+  font:bold 5.5vw/1.6 'Girassol', cursive;
+  font-family: 'Girassol', cursive;
+  color:#0beaea ;
+  opacity: .8;
+  letter-spacing: 8px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 42px;
 }
 .text-projects{
-    color: blanchedalmond;
-    font-size: 1.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    width: 800px;
-    margin-top: -40px;
+  color: blanchedalmond;
+  font-size: 1.2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  width: 800px;
+  margin-top: -44px;
 }
 
 .img-github{
-   width: 40px;
-   height: 40px;
-   margin-top:-10px;
+  width: 40px;
+  height: 40px;
+  margin-top:-10px;
 }
 .img-github:hover {
-    -webkit-transform:scale(1.3);
-    transform:scale(1.3);
+  -webkit-transform:scale(1.3);
+  transform:scale(1.3);
 }
 .tittle-abilities{
-    font-family: 'Girassol', cursive;
-    font-size:3em;
-    color:#0beaea ;
-    opacity: .8;
-    letter-spacing: 8px;
-    text-align: center;
+  font-family: 'Girassol', cursive;
+  font-size:3em;
+  color:#0beaea ;
+  opacity: .8;
+  letter-spacing: 8px;
+  text-align: center;
+  margin-top: -150px;
+  margin-bottom: 10px;
 }
 .img-abilities{
-    width: 60px;
-    height: 60px;
-    opacity: .8;
-    margin-left: 30px;
-    margin-bottom: 30px;
+  width: 50px;
+  height: 50px;
+  opacity: .8;
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 .img-abilities:hover {
-    -webkit-transform:scale(1.3);
-    transform:scale(1.3);
+  -webkit-transform:scale(1.3);
+  transform:scale(1.3);
 }
 @media screen and (max-width : 780px){
-    .menu{
-        background:#0beaea;
-        opacity: .7;
-        padding: .5em;
-        text-align: center;
-        font-size: 1.2em;
-        position: fixed;
-        top: 0;
-        width: 100%;    
-    }
-    .tittle-projects{
-        font-size:2em;
-        margin-top: 75px;
-    }
-    .text-projects{
-        font-size: 15px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        text-align: center;
-        width: 300px;
-        margin-bottom: -18px;
-        margin-top: -24px;
-    }
-    .img-projects{
-        width: 90px;
-        height: 90px;
-        margin-left: 13px;
-        object-fit: scale-down;
-        display: flex;
-        margin-top: 10px;
-    }
-    .img-github{
-        width: 20px;
-        height: 20px;
-        margin-top:10px;
-        z-index: 20;
-        margin-left: 50px;
-    }
-    .tittle-abilities{
-        font-size:1.5em;
-        letter-spacing: 6px;
-    }
-    .img-abilities{
-        width: 30px;
-        height: 30px;
-        margin-left: 10px;
-    }
-   
+  .menu{
+    background:#0beaea;
+    opacity: .7;
+    padding: .5em;
+    text-align: center;
+    font-size: 1.2em;
+    position: fixed;
+    top: 0;
+    width: 100%;    
+  }
+  .tittle-projects{
+    font-size:2em;
+    margin-top: 75px;
+  }
+  .text-projects{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 300px;
+    margin-bottom: -18px;
+    margin-top: -24px;
+  }
+  .img-projects{
+    width: 90px;
+    height: 90px;
+    margin-left: 13px;
+    object-fit: scale-down;
+    display: flex;
+    margin-top: 10px;
+  }
+  .img-github{
+    width: 20px;
+    height: 20px;
+    margin-top:10px;
+    z-index: 20;
+    margin-left: 50px;
+  }
+  .tittle-abilities{
+    font-size:1.5em;
+    letter-spacing: 6px;
+  }
+  .img-abilities{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  } 
 }
