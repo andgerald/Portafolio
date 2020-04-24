@@ -1,4 +1,6 @@
-
+body{
+    overflow: scroll;
+}
 .footer{
     background:#0beaea;
     height: 30px; 
