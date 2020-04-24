@@ -132,14 +132,14 @@ h3 span:nth-child(19){ animation-delay:.9s; }
 }
 
 .footer{
-  background:#0beaea;
+  background:#b0cece;
   height: 30px; 
   width:100%; 
   position:fixed; 
   bottom:0; 
   left:0; 
   opacity: .7;
-  color: rgb(250, 247, 244);
+  color: rgb(34, 32, 30);
   align-items: center;
 }
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
